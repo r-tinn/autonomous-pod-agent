@@ -1,23 +1,44 @@
-# An agent based simulation of the interactions between autonomous vehicles and pedestrians
+# Agent based simulation of the interactions between autonomous vehicles and pedestrians
 
-Autonomous vehicles are increasingly becoming a viable transport solution. The goal of this project is to evaluate how
-autonomous vehicles, which operate in pedestrianised areas, could be used within cities in the future.
+### Overview
+Autonomous vehicles are increasingly becoming a viable means of transportation and autonomous pods, which operate in
+pedestrianised areas, have been conceived as a last mile transportation solution. The goal of this project is to model
+how effective this type of vehicle will be, at operating in different environments of various sizes and busyness, and
+also to analyse how the layout of cities could be altered to better facilitate this transportation system.
 
-### Getting Started (this requires the acquisition of a licence for MassMotion and its SDK)
-1) Install MassMotion and its SDK (http://www.oasys-software.com/products/engineering/massmotion.html)
-2) Clone this repo into MassMotion SDK's path, this contains the massmotion.py file.
-This looks like 'C:\MassMotion SDK 9.0' in Windows
-3) Run either pathTest.py or squareTest.py (note you must be using Python 3.4 to run MassMotion's SDK)
+### Examples
+Attached are three videos which outline the capabilities and behaviour of the pod agent. The autonomous pod agents are
+designed to operate on floors with a minimum dimension of 2m (the approximate pod width) and which have no obstacles
+placed on them (apart from other agents).
 
-### Changing the tests
-Changes to the environment can be made by editing the pathTest.mm and squareTest.mm files.
-This includes altering the number of pedestrians travelling between goals and the positions of the goals themselves.
-The pod's and pedestrian's attributes and parameters can be edited by altering the corresponding python files.
-A class diagram has also illustrates how these extensions fit into the wider MassMotion environment.
-The video exampleJourney.mp4 shows a larger (Sketchup) model imported into MassMotion which pods can travel through.
+1) The 'path test' video demonstrates how the autonomous pod interacts with a pod on a narrow floor.
+2) The 'square test' video illustrates a pod's behaviour in an open environment.
+3) The 'example journey' video highlights how these agents can be run in virtual city environments to simulate their
+use in the real-world (the city model shown in this video was created by Sketchup Placemaker and was then imported
+into Massmotion).
+
+### Getting Started
+1) This project requires a licence for MassMotion 9.0.
+(http://www.oasys-software.com/products/engineering/massmotion.html)
+2) Install MassMotion and its SDK, detailed instructions can be found in the user guide:
+(http://www.oasys-software.com/media/Manuals/Latest_Manuals/MassMotion.pdf)
+3) Install Python 3.4 (or create a virtual environment) as this project uses Python as a scripting language and
+MassMotion's SDK only works with Python 3.4.
+4) Follow the setup instructions for the Python SDK (follow the SDK documentation which comes with the installation).
+5) Clone this repository into the directory containing the example Python scripts installed by MassMotion (again a
+detailed explanantion is provided in the SDK guide).
+3) Run either pathTest.py or squareTest.py as an initial test.
+4) Open the corresponding .mmdb file produced by this test to view the simulation results.
+
+### Creating & altering tests
+Changes to the MassMotion environments can be made by editing the pathTest.mm and squareTest.mm files. Changes include
+altering the floor dimensions, the number of pedestrians travelling between goals created on the floor and adjusting
+the positions of the goals themselves.
+
+The pod's and pedestrian's attributes and methods can be edited by altering the corresponding python files in your
+cloned repository. A class diagram illustrates how these extensions fit into the wider MassMotion environment and a
+sequence diagram is provided to show they interact with each other.
 
 ### Author
 Robert Tinn
-
-### Acknowledgments
-The team at Oasys for their guidance and SDK
+robertdavidtinn@gmail.com
