@@ -23,7 +23,7 @@ placed on them (apart from other agents).
 use in the real-world (the city model shown in this video was created by Sketchup Placemaker and was then imported
 into Massmotion).
 
-![screenshot not available](exampleJourneyScreenshot/filename.jpg "Screenshot of an example journey")
+![screenshot not available](screenshots/exampleJourneyScreenshot.jpg "Screenshot of an example journey")
 
 ### Getting Started
 1) This project requires a licence for MassMotion 9.0.
