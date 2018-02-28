@@ -13,17 +13,17 @@ placed on them (apart from other agents).
 
 1) The 'path test' video demonstrates how the autonomous pod interacts with a pod on a narrow floor.
 
-![alt text](screenshots/pathTestScreenshot.png "Path test screenshot")
+![alt text](screenshots/pathTestScreenshot.jpeg "Path test screenshot")
 
 2) The 'square test' video illustrates a pod's behaviour in an open environment.
 
-![alt text](screenshots/squareTestScreenshot.png "Square test screenshot")
+![alt text](screenshots/squareTestScreenshot.jpeg "Square test screenshot")
 
 3) The 'example journey' video highlights how these agents can be run in virtual city environments to simulate their
 use in the real-world (the city model shown in this video was created by Sketchup Placemaker and was then imported
 into Massmotion).
 
-![alt text](exampleJourneyScreenshot/filename.png "Screenshot of an example journey")
+![alt text](exampleJourneyScreenshot/filename.jpeg "Screenshot of an example journey")
 
 ### Getting Started
 1) This project requires a licence for MassMotion 9.0.
